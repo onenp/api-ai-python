@@ -58,11 +58,11 @@ def makeWebhookResult(data):
     if query is None:
         return {}
     
-    result=data.get('results')
+    result=query.get('results')
     if result is None:
         return {}
     
-    channel=data.get('channel')
+    channel=result.get('channel')
     if channel is None:
         return {}
     
