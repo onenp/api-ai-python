@@ -1,8 +1,5 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sat Jul 15 18:23:25 2017
-
-@author: nilesh
 """
 from __future__ import print_function
 from future.standard_library import install_aliases
