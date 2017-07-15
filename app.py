@@ -11,9 +11,9 @@ from urllib.error import HTTPError
 
 import json
 import os
-from flash import Flask
+from flask import Flask
 from flask import request
-from flash import make_response
+from flask import make_response
 
 #Flask app should start in global layout
 app = Flask(__name__)
