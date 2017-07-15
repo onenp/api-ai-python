@@ -1,14 +1,11 @@
 #!/usr/bin/env python
 
 #from __future__ import print_function
-from __future__ import (absolute_import, division,
-                        print_function, unicode_literals)
-from builtins import (
-         bytes, dict, int, list, object, range, str,
-         ascii, chr, hex, input, next, oct, open,
-         pow, round, super,
-         filter, map, zip)
-from future.standard_library import install_aliases
+#from __future__ import (absolute_import, division,
+#                        print_function, unicode_literals)
+
+#from future.standard_library import install_aliases
+import install_aliases
 install_aliases()
 
 from urllib.parse import urlparse, urlencode
